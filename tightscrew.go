@@ -15,7 +15,7 @@ type Screw struct {
 
 func (t *Screw) Tight(i int) {
 	t.output = t.input*t.input + i
-//	time.Sleep(time.Second)
+	// time.Sleep(time.Second)
 }
 
 func NewScrew() *Screw {
